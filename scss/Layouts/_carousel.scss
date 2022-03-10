@@ -1,0 +1,77 @@
+.carousel{
+    height: 688px;
+    object-fit: cover;
+
+    .carousel__imgtop{
+        background-image: url(../img/yellow_top_wave_01.png);
+        height: 215px;
+        background-size: cover;
+
+    }
+    .carousel__imgbottom{
+        background-image: url(../img/Violet_top_left_wave.png);
+        height: 250px;
+        background-size: cover;
+        position: relative;
+        bottom: 308px;
+        z-index: -1;
+        
+
+    }
+    .carousel__content{
+        display: flex; 
+        position: relative;
+        bottom: 101px;
+        .carousel__content__left{
+            margin-top: 100px;
+            p{
+                @include styleText($fs-2,$fw-2,$color-button-header);
+            }
+            h1{
+                @include styleText($fs-9,$fw-3,$color-dark-3);
+
+            }
+        }
+    }
+}
+
+//responsive
+@include responsive("large") {
+    .carousel{
+        .carousel__content{
+            .carousel__content__left{
+                p{
+                    @include styleText($fs-1,$fw-2,$color-button-header);
+                }
+                h1{
+                    @include styleText($fs-8,$fw-2,$color-dark-3);
+
+                }
+            }
+        }
+    }
+}
+
+@include responsive("medium") {
+    .carousel{
+        .carousel__content{
+            .carousel__content__left{
+                p{
+                    @include styleText($fs-1,$fw-2,$color-button-header);
+                }
+                h1{
+                    @include styleText($fs-7,$fw-2,$color-dark-3);
+
+                }
+            }
+            .carousel__content__right{
+                img{
+                    width: 340px;
+                }
+            }
+        }
+        .carousel__imgbottom{
+            bottom: 68px;
+        }
+    }
+}

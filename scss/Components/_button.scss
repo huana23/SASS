@@ -1,0 +1,10 @@
+.phoneBTN-white{
+    @include styleButton(#b61984,$pd-3, $pd-3, 2px solid $color-button-header);
+    @include styleText($fs-1,$fw-2,$color-white-1);
+    transition: 0.5s;
+    &:hover{
+        background-color: $color-white-3;
+        color: $color-dark-1;
+    }
+
+}

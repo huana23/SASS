@@ -1,0 +1,35 @@
+.project{
+    background-color: #dcd1f3;
+    .card{
+        border-radius: 10px;
+        overflow: hidden;
+        transition: ease-in-out 0.6s;
+        &:hover{           
+            transform: translateY(-10px);
+        }
+            
+        .card-img-top{
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            transition: ease-in-out 0.6s;
+            &:hover{
+                transform: scale(1.08);
+            }
+        }
+        .card-body{
+            text-align: center;
+            span{
+                @include styleText($fs-1,$fw-2,$color-button-header);
+            }
+            .card-title{
+                @include styleText($fs-2,$fw-3,$color-dark-1);
+
+            }
+        }
+    }
+    .project__bottom-img{
+        background-image: url(../img/Wave_White_bottom_right_shape_01.png);
+        height: 365px;
+        background-size: cover;
+    }
+}

@@ -1,0 +1,28 @@
+// chỉ chứa đường dẫn tới các file con
+
+//helper
+@import "./Helper/variables";
+@import "./Helper/mixin";
+
+// vendors
+
+
+// base
+@import "./Base/reset";
+
+//components
+@import "./Components/button";
+
+// laouts
+@import"./Layouts/our-team";
+@import "./Layouts/header";
+@import "./Layouts/carousel";
+@import"./Layouts/project";
+@import"./Layouts/form";
+@import"./Layouts/footer"
+
+
+
+// pages
+
+//theme

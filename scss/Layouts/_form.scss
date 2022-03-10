@@ -1,0 +1,48 @@
+.form{
+    .form__content{
+        display: flex;
+        .form__content-img{
+            img{
+                display: block;
+                margin: 50px;
+                line-height: 0;
+                max-width: 80%;
+            }
+        }
+        .form__content-table{
+            button{
+                padding: 15px 50px;
+                border-radius: 30px;
+
+            }
+            h1{
+                @include styleText($fs-35,$fw-2,$color-dark-4);
+                margin: 10px 0;
+            }
+            background-color: rgba(255, 255, 255, 1);
+            border-radius: 10px;
+            overflow: hidden;
+            padding: 20px;
+            box-shadow: $box-shadow-bottom-only;
+            .form-group{
+                display: flex;
+                input{
+                    border-radius: 20px;
+                    margin: 0px 3px;
+                }
+                textarea{
+                    border-radius: 20px;
+                    margin: 0px 3px;
+
+                }
+
+            }
+        }
+    }
+    .form__img{
+        background-image: url(../img/accent_bottom_wave_01.png);
+        height: 381px;
+        background-size: cover;
+        z-index: -1;
+    }
+}

@@ -4,19 +4,307 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Our Team</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,300;1,400&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
-    <header></header>
-    <section class="phoneCarousel"></section>
-    <section class="products"></section>
-    <footer></footer>
+  <div class="our-team">
+    <header class="header" id="navbar">
+      <nav class="container navbar navbar-expand-lg">
+          <a class="navbar-brand" href="#" id="none">
+              <img src="./img/crest.png" alt="" id="none">
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarPhone" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fa fa-bars"></i>
+          </button>
+        
+          <div class="collapse navbar-collapse" id="navbarPhone">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">Courses</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">Blog</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">Shop</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">Elements</a>
+              </li>
+            </ul>
+          </div>
+          <div class="header__right">
+              <div class="button__header">
+                  <button class="phoneBTN-white">
+                      <i class="fa fa-phone"></i>
+                      <span>(+1) 555 234-8765</span>
+                  </button>
+              </div>
+              <a href="#" class="icon__header"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="icon__header"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" class="icon__header"><i class="fab fa-youtube"></i></a>
+              <a href="#" class="icon__header"><i class="fab fa-instagram"></i></a>
+          </div>
+      </nav>
+
+  </header>
+  <section class="carousel">
+      <div class="carousel__imgtop"></div>
+      <div class="container carousel__content">
+          <div class="carousel__content__left">
+              <p>ABOUT US</p>
+              <h1>The language teaching experts
+              </h1>
+          </div>
+
+          <div class="carousel__content__right">
+              <img src="./img/hero_team.png" alt="">
+          </div>
+          
+      </div>
+      <div class="carousel__imgbottom">
+          
+      </div>
+  </section>
+  <section class="project">
+      <div class="container tab-content">
+          <div class="tab-pane fade show active mt-5" id="all" role="tabpanel" aria-labelledby="pills-home-tab">
+            <!-- sắp các cột nằm trên 1 dòng -->
+            <div class="row">
+              <!-- rút gọn -->
+              <div class="col-12 col-sm-6 col-lg-3 mt-3">
+                <div class="card animate__animated animate__zoomIn">
+                  <img src="./img/teacher_1.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                      <span>ITALIAN</span>
+                    <h5 class="card-title">July Roberts</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6 col-lg-3 mt-3">
+                  <div class="card animate__animated animate__zoomIn">
+                    <img src="./img/teacher_2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <span>FRENCH</span>
+                      <h5 class="card-title">Jon Stone</h5>
+                      <p class="card-text">Nanotechnology immersion along the information.</p>
+                    </div>
+                  </div>
+              </div>
+              <div class="col-12 col-sm-6 col-lg-3 mt-3">
+                  <div class="card animate__animated animate__zoomIn">
+                    <img src="./img/teacher_3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <span>JAPANESE</span>
+                      <h5 class="card-title">Emma Stone</h5>
+                      <p class="card-text">Bring to the table survival strategies to ensure.</p>
+                    </div>
+                  </div>
+              </div>
+              <div class="col-12 col-sm-6 col-lg-3 mt-3">
+                  <div class="card animate__animated animate__zoomIn">
+                    <img src="./img/teacher_4.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <span>CHINESE</span>
+                      <h5 class="card-title">Mark Lee</h5>
+                      <p class="card-text">Proactive domination. At the end, going forward.</p>
+                    </div>
+                  </div>
+              </div>
+              <div class="col-12 col-sm-6 col-lg-3 mt-3 ">
+                  <div class="card animate__animated animate__zoomIn">
+                    <img src="./img/teacher_5.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <span>RUSSIAN</span>
+                      <h5 class="card-title">John Doe</h5>
+                      <p class="card-text">A new normal that has evolved from generation X.</p>
+                    </div>
+                  </div>
+              </div>
+              <div class="col-12 col-sm-6 col-lg-3 mt-3 ">
+                  <div class="card animate__animated animate__zoomIn">
+                    <img src="./img/teacher_6.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <span>SWEDEN</span>
+                      <h5 class="card-title">Jane Smith</h5>
+                      <p class="card-text">Heading towards a streamlined cloud solution.</p>
+                    </div>
+                  </div>
+              </div>
+              <div class="col-12 col-sm-6 col-lg-3 mt-3 ">
+                  <div class="card animate__animated animate__zoomIn">
+                    <img src="./img/teacher_7.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <span>SPANISH</span>
+                      <h5 class="card-title">Hanna Alverez</h5>
+                      <p class="card-text">Content in real-time will have multiple touchpoints.</p>
+                    </div>
+                  </div>
+              </div>
+              <div class="col-12 col-sm-6 col-lg-3 mt-3 ">
+                  <div class="card animate__animated animate__zoomIn">
+                    <img src="./img/teacher_8.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <span>ITALIAN</span>
+                      <h5 class="card-title">July Roberts</h5>
+                      <p class="card-text">Capitalize on low hanging fruit to identify a ballpark.</p>
+                    </div>
+                  </div>
+              </div>
+
+            </div>
+
+          </div>
+
+          
+          
+          
+        </div>
+        <div class="project__bottom-img">
+        </div>
+  </section>
+
+  <section class="form">
+    <div class="container form__content">
+      <div class="form__content-img">
+        <img src="./img/conatct_inner.png" alt="">
+      </div>
+      <div class="form__content-table">
+        <form>
+          <h1>Find Your Course</h1>
+          <div class="form-group">
+            <input type="text" placeholder="Name" class="form-control">
+            <input type="email" class="form-control" aria-describedby="emailHelp" placeholder="Email">
+          </div>
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="English">
+          </div>
+          <div class="form-group">
+            <textarea name="" id="" cols="50" rows="10" placeholder="Messger"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary phoneBTN-white">Send</button>
+        </form>
+      </div>
+    </div>
+    <div class="form__img"></div>
+  </section>
+  <footer class="footer">
+      <div class="container footer__top--content">
+
+          <div class="content__item">
+              <h5 class="footer-title">Contact us</h5>
+              <ul>
+                  <li>
+                    <a href="index.html">
+                      <i class="fa fa-map-marker-alt"></i>
+                      Franklin St, Greenpoint Ave
+                    </a>
+                  </li>
+                  <li>
+                    <a href="services-1.html">
+                      <i class="fa fa-phone"></i>
+                      +2342 5446 67
+                    </a>
+                  </li>
+                  <li>
+                    <a href="team-1.html">
+                      <i class="fa fa-clock"></i>
+                      Monday - Friday: 8 AM - 5 PM
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="icon__header"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="icon__header"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="icon__header"><i class="fab fa-youtube"></i></a>
+                    <a href="#" class="icon__header"><i class="fab fa-instagram"></i></a>
+                  </li>
+              </ul>
+              
+          </div>
+
+          <div class="content__item">
+              <h5 class="footer-title">Quik Lin</h5>
+              <ul>
+                  <li class="border__bottom"><a href="index.html">Home</a></li>
+                  <li class="border__bottom"><a href="about-us-1.html">Courses</a></li>
+                  <li class="border__bottom"><a href="services-1.html">Schedule</a></li>
+                  <li class="border__bottom"><a href="team-1.html">Blog</a></li>
+              </ul>
+              
+          </div>
+
+          <div class="content__item">
+              <h5 class="footer-title">About </h5>
+              <ul>
+                  <li class="border__bottom"><a href="index.html">About Us</a></li>
+                  <li class="border__bottom"><a href="about-us-1.html">Events</a></li>
+                  <li class="border__bottom"><a href="services-1.html">Get Quote</a></li>
+                  <li class="border__bottom"><a href="team-1.html">Contact</a></li>
+              </ul>
+              
+          </div>
+
+          <div class="content__item content__item-none">
+            <h5 class="footer-title">Newsletter</h5>
+            <ul>
+                <li>
+                  <a href="index.html">
+                    <button class="phoneBTN-white">
+                      <span>You Email</span>
+                  </button>
+                  </a>
+                </li>
+                <li>
+                  <a href="index.html">
+                    <button class="phoneBTN-white">
+                      <span>SUBSCRIBE</span>
+                  </button>
+                  </a>
+                </li>
+            </ul>
+            
+        </div>
+
+
+      </div>
+  </footer>
+  </div>
+    
 
 
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+
+    <script>
+        // When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+          if (document.body.scrollTop > 90 || document.documentElement.scrollTop > 90) {
+            document.getElementById("navbar").style.height = "90px";
+            document.getElementById("navbar").style.backgroundColor = "white";
+
+          } else {
+            document.getElementById("navbar").style.backgroundColor = "transparent";
+            document.getElementById("navbar").style.height = "130px";
+          }
+        }
+    </script>
 </body>
 </html>
